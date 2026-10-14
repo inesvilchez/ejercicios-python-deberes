@@ -1,10 +1,18 @@
-# Algoritmo:
-# Convertir la palabra a minúsculas
-# Crear contador = 0
-# Para cada letra en la palabra:
-#     Si la letra está en "aeiou":
-#         sumar 1 al contador
-# Devolver contador
+'''
+Algoritmo: Contar vocales de una palabra
+ENTRADAS: palabra
+SALIDA: contador
+
+bloque de desarrollo
+contador = 0
+palabra_minusculas = convertir_a_minusculas(palabra)
+PARA CADA letra EN palabra_minusculas:
+    SI letra == "a" O letra == "e" O letra == "i" O letra == "o" O letra == "u":
+        contador = contador + 1
+    FIN SI
+FIN PARA
+DEVOLVER: contador
+'''
 def contar_vocales(palabra):
     """Cuenta las vocales de una palabra, sin distinguir mayúsculas."""
     palabra = palabra.lower()

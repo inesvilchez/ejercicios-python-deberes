@@ -1,7 +1,16 @@
-# Algoritmo:
-# Si numero > 0 devolver "positivo"
-# Si numero < 0 devolver "negativo"
-# Si numero == 0 devolver "cero"
+#Algoritmo: Signo de un número
+#ENTRADAS: numero
+#SALIDA: resultado
+
+#bloque de desarrollo
+#SI numero > 0:
+#    resultado = "positivo"
+#SINO SI numero < 0:
+#    resultado = "negativo"
+#SINO:
+#    resultado = "cero"
+#FIN SI
+#DEVOLVER: resultado
 
 def signo_numero(numero):
     """Devuelve si un número es positivo, negativo o cero."""

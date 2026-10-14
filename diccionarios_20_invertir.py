@@ -1,9 +1,26 @@
-# Algoritmo:
-# Recibir un diccionario
-# Crear un diccionario nuevo vacío
-# Recorrer cada clave y valor del diccionario original:
-#     en el nuevo diccionario, poner valor como clave y clave como valor
-# Devolver el diccionario invertido
+'''
+Algoritmo: Calculadora segura
+ENTRADAS: texto_a, texto_b, operacion
+SALIDA: resultado
+
+bloque de desarrollo
+INTENTAR:
+    num_a = convertir_a_decimal(texto_a)
+    num_b = convertir_a_decimal(texto_b)
+    
+    SI operacion == "suma":
+        resultado = num_a + num_b
+    SINO SI operacion == "division":
+        resultado = num_a / num_b
+    FIN SI
+    
+CAPTURAR ValueError:
+    resultado = "Error: valor no numérico"
+CAPTURAR ZeroDivisionError:
+    resultado = "Error: división entre cero"
+FIN INTENTAR
+DEVOLVER: resultado
+'''
 def invertir_diccionario(diccionario):
     """Devuelve un diccionario con claves y valores invertidos."""
     invertido = {}

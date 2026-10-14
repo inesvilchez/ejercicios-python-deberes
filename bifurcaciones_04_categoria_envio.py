@@ -1,8 +1,20 @@
-# Algoritmo:
-# Si peso <= 1 → "Sobre"
-# Si peso > 1 y <= 5 → "Paquete pequeño"
-# Si peso > 5 y <= 20 → "Paquete grande"
-# Si peso > 20 → "Voluminoso"
+'''
+Algoritmo: Categoría de envío según el peso
+ENTRADAS: peso_kg
+SALIDA: categoria
+
+bloque de desarrollo
+SI peso_kg <= 1:
+    categoria = "Sobre"
+SINO SI peso_kg <= 5:
+    categoria = "Paquete pequeño"
+SINO SI peso_kg <= 20:
+    categoria = "Paquete grande"
+SINO:
+    categoria = "Voluminoso"
+FIN SI
+DEVOLVER: categoria
+'''
 def categoria_envio(peso_kg):
     """Clasifica un envío según su peso en kilos."""
     if peso_kg <= 1:

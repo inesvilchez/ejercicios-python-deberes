@@ -1,9 +1,16 @@
-# Algoritmo:
-# Recibir un diccionario con valores numéricos
-# Crear suma = 0
-# Recorrer cada valor del diccionario:
-#     añadir el valor a suma
-# Devolver suma
+'''
+Algoritmo: Obtener elemento
+ENTRADAS: lista, posicion
+SALIDA: elemento
+
+bloque de desarrollo
+INTENTAR:
+    elemento = lista[posicion]
+CAPTURAR IndexError:
+    elemento = "Error: posición fuera de rango"
+FIN INTENTAR
+DEVOLVER: elemento
+'''
 def sumar_valores(diccionario):
     """Suma todos los valores numéricos de un diccionario."""
     suma = 0

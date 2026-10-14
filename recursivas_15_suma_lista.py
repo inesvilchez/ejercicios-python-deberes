@@ -1,8 +1,16 @@
-# Algoritmo:
-# Si la lista está vacía → devolver 0
-# Si la lista tiene elementos:
-#     devolver el primer elemento + suma_lista(resto de la lista)
-# La función se llama a sí misma reduciendo la lista
+'''
+Algoritmo: Suma recursiva de una lista
+ENTRADAS: numeros
+SALIDA: suma
+
+bloque de desarrollo
+SI longitud(numeros) == 0:
+    suma = 0
+SINO:
+    suma = primer_elemento(numeros) + suma_lista(resto_de_numeros)
+FIN SI
+DEVOLVER: suma
+'''
 def suma_lista(numeros):
     """Suma los elementos de una lista usando recursividad."""
     if len(numeros) == 0:

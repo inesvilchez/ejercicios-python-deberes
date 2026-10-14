@@ -1,8 +1,16 @@
-# Algoritmo:
-# Recibir una lista con posibles duplicados
-# Convertir la lista a un conjunto (set) para eliminar duplicados
-# Convertir el conjunto de nuevo a lista
-# Devolver la lista sin duplicados
+'''
+Algoritmo: Convertir a entero
+ENTRADAS: texto
+SALIDA: resultado
+
+bloque de desarrollo
+INTENTAR:
+    resultado = convertir_a_entero(texto)
+CAPTURAR ValueError:
+    resultado = "Error: no es un número"
+FIN INTENTAR
+DEVOLVER: resultado
+'''
 def eliminar_duplicados(lista):
     """Devuelve una lista sin elementos duplicados."""
     sin_duplicados = list(set(lista))

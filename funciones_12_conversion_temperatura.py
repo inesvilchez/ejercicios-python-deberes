@@ -1,12 +1,22 @@
-# Algoritmo Celsius → Fahrenheit:
-# Recibir grados Celsius
-# Aplicar fórmula: F = C * 9/5 + 32
-# Devolver F
+'''
+Algoritmo: Celsius a Fahrenheit
+ENTRADAS: celsius
+SALIDA: fahrenheit
 
-# Algoritmo Fahrenheit → Celsius:
-# Recibir grados Fahrenheit
-# Aplicar fórmula: C = (F - 32) * 5/9
-# Devolver C
+bloque de desarrollo
+fahrenheit = (celsius * 9/5) + 32
+DEVOLVER: fahrenheit
+'''
+
+'''
+Algoritmo: Fahrenheit a Celsius
+ENTRADAS: fahrenheit
+SALIDA: celsius
+
+bloque de desarrollo
+celsius = (fahrenheit - 32) * 5/9
+DEVOLVER: celsius
+'''
 def celsius_a_fahrenheit(celsius):
     """Convierte una temperatura de Celsius a Fahrenheit."""
     return celsius * 9/5 + 32

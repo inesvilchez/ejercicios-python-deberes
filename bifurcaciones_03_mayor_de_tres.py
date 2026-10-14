@@ -1,9 +1,18 @@
-# Algoritmo:
-# Si a es mayor que b y mayor que c → devolver a
-# Si b es mayor que a y mayor que c → devolver b
-# Si no → devolver c
-#
-# Nota: si hay empates, devolver cualquiera de los mayores
+'''
+Algoritmo: El mayor de tres números
+ENTRADAS: a, b, c
+SALIDA: mayor
+
+bloque de desarrollo
+SI a >= b Y a >= c:
+    mayor = a
+SINO SI b >= a Y b >= c:
+    mayor = b
+SINO:
+    mayor = c
+FIN SI
+DEVOLVER: mayor
+'''
 def mayor_de_tres(a, b, c):
     """Devuelve el mayor de tres números sin usar max()."""
     if a >= b and a >= c:

@@ -1,10 +1,16 @@
-# Algoritmo:
-# Recibir una lista de números
-# Crear una variable mayor = primer elemento
-# Recorrer cada número de la lista:
-#     Si el número es mayor que 'mayor':
-#         actualizar 'mayor'
-# Al final devolver 'mayor'
+'''
+Algoritmo: Invertir cadena de texto
+ENTRADAS: texto
+SALIDA: texto_invertido
+
+bloque de desarrollo
+SI longitud(texto) <= 1:
+    texto_invertido = texto
+SINO:
+    texto_invertido = invertir_texto(resto_del_texto) + primera_letra(texto)
+FIN SI
+DEVOLVER: texto_invertido
+'''
 def mayor_en_lista(numeros):
     """Devuelve el número mayor dentro de una lista."""
     mayor = numeros[0]

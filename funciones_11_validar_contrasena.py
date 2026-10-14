@@ -1,9 +1,16 @@
-# Algoritmo:
-# Recibir una contraseña y una longitud mínima (por defecto 8)
-# Si la longitud de la contraseña es mayor o igual que la longitud mínima:
-#     devolver True
-# Si no:
-#     devolver False
+'''
+Algoritmo: Validar contraseña
+ENTRADAS: contrasena, longitud_minima
+SALIDA: es_valida
+
+bloque de desarrollo
+SI longitud(contrasena) >= longitud_minima:
+    es_valida = True
+SINO:
+    es_valida = False
+FIN SI
+DEVOLVER: es_valida
+'''
 def validar_contrasena(contrasena, longitud_minima=8):
     """Comprueba si una contraseña alcanza la longitud mínima exigida."""
     if len(contrasena) >= longitud_minima:

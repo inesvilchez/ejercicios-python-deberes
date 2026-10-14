@@ -1,9 +1,18 @@
-# Algoritmo:
-# Si n es 0 → devolver 0
-# Si n es 1 → devolver 1
-# Si n es mayor:
-#     devolver fibonacci(n-1) + fibonacci(n-2)
-# La función se llama a sí misma hasta llegar a los casos base
+'''
+Algoritmo: Sucesión de Fibonacci
+ENTRADAS: n
+SALIDA: resultado
+
+bloque de desarrollo
+SI n == 0:
+    resultado = 0
+SINO SI n == 1:
+    resultado = 1
+SINO:
+    resultado = fibonacci(n - 1) + fibonacci(n - 2)
+FIN SI
+DEVOLVER: resultado
+'''
 def fibonacci(n):
     """Devuelve el número Fibonacci en la posición n."""
     if n == 0:

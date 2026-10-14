@@ -1,11 +1,16 @@
-# Algoritmo:
-# Un año es bisiesto si:
-# - Es divisible entre 4
-# - Excepto si es divisible entre 100
-# - A menos que también sea divisible entre 400
-#
-# Si cumple la regla → devolver True
-# Si no → devolver False
+'''
+Algoritmo: Año bisiesto
+ENTRADAS: anio
+SALIDA: es_bisiesto
+
+bloque de desarrollo
+SI (anio % 4 == 0 Y anio % 100 != 0) O (anio % 400 == 0):
+    es_bisiesto = True
+SINO:
+    es_bisiesto = False
+FIN SI
+DEVOLVER: es_bisiesto
+'''
 def es_bisiesto(año):
     """Determina si un año es bisiesto."""
     if año % 400 == 0:

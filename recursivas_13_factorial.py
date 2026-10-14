@@ -1,8 +1,16 @@
-# Algoritmo:
-# Si n es 0 → devolver 1 (caso base)
-# Si n es mayor que 0:
-#     devolver n * factorial_recursivo(n - 1)
-# La función se llama a sí misma hasta llegar a 0
+'''
+Algoritmo: Factorial recursivo
+ENTRADAS: n
+SALIDA: resultado
+
+bloque de desarrollo
+SI n == 0:
+    resultado = 1
+SINO:
+    resultado = n * factorial_recursivo(n - 1)
+FIN SI
+DEVOLVER: resultado
+'''
 def factorial_recursivo(n):
     """Calcula n! llamándose a sí misma (versión recursiva)."""
     if n == 0:

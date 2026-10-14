@@ -1,9 +1,19 @@
-# Algoritmo:
-# Crear una variable suma = 0
-# Recorrer todos los números desde 1 hasta n
-# Si el número es par (numero % 2 == 0)
-#     añadirlo a suma
-# Al final devolver suma
+'''
+Algoritmo: Suma de pares entre 1 y n
+ENTRADAS: n
+SALIDA: suma
+
+bloque de desarrollo
+contador = 1
+suma = 0
+MIENTRAS contador <= n:
+    SI contador % 2 == 0:
+        suma = suma + contador
+    FIN SI
+    contador = contador + 1
+FIN MIENTRAS
+DEVOLVER: suma
+'''
 def suma_pares(n):
     """Suma los números pares entre 1 y n."""
     suma = 0

@@ -1,10 +1,16 @@
-# Algoritmo:
-# Recibir una lista y un elemento a buscar
-# Crear contador = 0
-# Recorrer cada elemento de la lista:
-#     Si el elemento es igual al buscado:
-#         sumar 1 al contador
-# Devolver contador
+'''
+Algoritmo: División segura
+ENTRADAS: a, b
+SALIDA: resultado
+
+bloque de desarrollo
+INTENTAR:
+    resultado = a / b
+CAPTURAR ZeroDivisionError:
+    resultado = "Error: división entre cero"
+FIN INTENTAR
+DEVOLVER: resultado
+'''
 def contar_elemento(lista, elemento):
     """Cuenta cuántas veces aparece un elemento en una lista."""
     contador = 0

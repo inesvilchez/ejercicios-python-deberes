@@ -1,8 +1,14 @@
-# Algoritmo:
-# Convertir la frase a mayúsculas
-# Separar la frase en palabras usando split()
-# Contar cuántas palabras hay
-# Devolver la frase en mayúsculas y el número de palabras
+'''
+Algoritmo: Analizar frase
+ENTRADAS: frase
+SALIDA: frase_mayusculas, cantidad_palabras
+
+bloque de desarrollo
+frase_mayusculas = convertir_a_mayusculas(frase)
+palabras = separar_por_espacios(frase)
+cantidad_palabras = longitud(palabras)
+DEVOLVER: frase_mayusculas, cantidad_palabras
+'''
 def analizar_frase(frase):
     """Devuelve la frase en mayúsculas junto con su número de palabras."""
     frase_mayus = frase.upper()

@@ -1,8 +1,14 @@
-# Algoritmo:
-# Recibir una lista de números
-# Sumar todos los elementos
-# Dividir la suma entre la cantidad de elementos
-# Devolver el resultado
+'''
+Algoritmo: Promedio de una lista de números
+ENTRADAS: numeros
+SALIDA: promedio
+
+bloque de desarrollo
+suma_total = suma(numeros)
+cantidad = longitud(numeros)
+promedio = suma_total / cantidad
+DEVOLVER: promedio
+'''
 def calcular_promedio(numeros):
     """Calcula la media aritmética de una lista de números."""
     suma = 0
